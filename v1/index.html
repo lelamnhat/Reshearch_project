@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dự án Cá nhân - [Tên Dự Án]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Dự án Cá nhân - [Tên Dự Án]</h1>
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#features">Tính năng</a>
+        <a href="#media">Hình ảnh & Video</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>Giới thiệu</h2>
+    <p>Chào mừng bạn đến với dự án cá nhân của tôi! Đây là một nền tảng mà tôi đã phát triển nhằm mục đích cung cấp giải pháp cho [mô tả ngắn gọn về mục đích của dự án].</p>
+</section>
+
+<section id="features">
+    <h2>Tính năng nổi bật</h2>
+    <ul>
+        <li>Tính năng 1: [Mô tả tính năng]</li>
+        <li>Tính năng 2: [Mô tả tính năng]</li>
+        <li>Tính năng 3: [Mô tả tính năng]</li>
+    </ul>
+</section>
+
+<section id="media">
+    <h2>Hình ảnh & Video</h2>
+    <div class="media-gallery">
+        <img src="your-image-1.jpg" alt="Mô tả hình ảnh 1">
+        <img src="your-image-2.jpg" alt="Mô tả hình ảnh 2">
+        <video controls>
+            <source src="your-video.mp4" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ video.
+        </video>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Liên hệ</h2>
+    <form class="contact-form" onsubmit="return handleSubmit(event)">
+        <input type="text" id="name" placeholder="Tên của bạn" required>
+        <input type="email" id="email" placeholder="Email của bạn" required>
+        <textarea id="message" placeholder="Tin nhắn của bạn" required></textarea>
+        <button type="submit">Gửi</button>
+    </form>
+    <p id="responseMessage" style="display:none; color: green;"></p>
+</section>
+
+<footer>
+    <p>&copy; 2023 Dự án Cá nhân của [Tên bạn]. Tất cả quyền được bảo lưu.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

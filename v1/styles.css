@@ -1,0 +1,102 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea; /* Màu nền nhẹ hơn */
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50; /* Màu tối hơn cho header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #ecf0f1; /* Màu sáng hơn cho liên kết */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e74c3c; /* Màu đỏ khi hover */
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Đổ bóng mạnh hơn */
+}
+
+h2 {
+    color: #2c3e50; /* Màu tiêu đề */
+}
+
+footer {
+    text-align: center;
+        padding: 20px;
+    background-color: #2c3e50; /* Màu tối cho footer */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.media-gallery {
+    display: flex;
+    flex-direction: column; /* Đặt hình ảnh và video theo chiều dọc */
+    align-items: center; /* Căn giữa nội dung */
+}
+
+.media-gallery img {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng của khung */
+    height: auto; /* Giữ tỷ lệ khung hình */
+    margin: 10px 0; /* Khoảng cách giữa các hình ảnh */
+    border-radius: 5px; /* Bo tròn góc hình ảnh */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho hình ảnh */
+}
+
+.media-gallery video {
+    max-width: 100%; /* Đảm bảo video không vượt quá chiều rộng của khung */
+    border-radius: 5px; /* Bo tròn góc video */
+    margin-top: 10px; /* Khoảng cách trên video */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2c3e50; /* Màu nút */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e74c3c; /* Màu khi hover */
+}
