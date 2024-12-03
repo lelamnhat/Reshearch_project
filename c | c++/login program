@@ -1,0 +1,61 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+string name;
+string username;
+string pass;
+string username2;
+string pass2;
+
+void login() {
+    cout << "Enter your name: ";
+    getline(cin, name);
+    cout << "Hello " << name << ", next to login." << endl;
+
+    cout << "Enter your username: ";
+    getline(cin, username);
+    cout << "Okay, good!" << endl;
+
+    cout << "Enter your password: ";
+    cin >> pass;
+
+    
+    while (pass.length() < 4) {
+        cout << "Password must be at least 4 characters. Enter password again: ";
+        cin >> pass;
+    }
+
+    cout << "Okay, login again." << endl;
+
+    
+    cout << "Enter your username again: ";
+    cin.ignore(); 
+    getline(cin, username2);
+    cout << "Okay, good!" << endl;
+
+    cout << "Enter your password again: ";
+    cin >> pass2;
+
+    
+    while (pass2 != pass) {
+        cout << "Passwords do not match. Enter password again: ";
+        cin >> pass2;
+    }
+
+    
+    while (username2 != username) {
+        cout << "User names do not match. Enter username again: ";
+        cin.ignore();
+        getline(cin, username2);
+    }
+}
+
+void in() {
+    cout << "Hello " << name << ", welcome to my program!" << endl;
+}
+
+int main() {
+    login();
+    in();
+    return 0;
+}
