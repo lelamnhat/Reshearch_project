@@ -1,0 +1,14 @@
+day_so = input("Nhập dãy số nguyên, cách nhau bằng khoảng trắng: ")
+ds = day_so.split()
+for i in range(len(ds)):
+    ds[i] = int(ds[i])
+print("Dãy số là:", end=" ")
+for x in ds:
+    print(x, end=" ")
+tong = 0
+for x in ds:
+    tong = tong + x
+
+tbc = tong / len(ds)
+print("\nTổng của dãy số là:", tong)
+print("Trung bình cộng là:", tbc)
