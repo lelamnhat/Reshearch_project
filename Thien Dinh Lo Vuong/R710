@@ -1,0 +1,65 @@
+1 n-int(input("danh sach da nhap ra man hinh: "))
+
+i
+
+2
+
+3 ds = []
+
+m
+
+4
+
+5 for i in range(n):
+
+6 x=int(input("nhap phan tu in ra" + str(i+1)+": "))
+
+7 ds.append(x)
+
+B
+
+9 print("danh sach da nhap ra: ", ds)
+
+10
+
+11 tong = 0
+
+12 dem 0
+
+13-for x in ds:
+
+14-if x > 0:
+
+15 tong + x
+
+16 dem + 1
+
+17-if dem 0:
+
+18 tbetong/ dem
+
+19 print("trung bình cong cac so dung la: ", tbc)
+
+gay
+
+20. else:
+
+21 22 print("khong co so dung trong danh sach ")
+
+S
+
+23 k-int(input("dem so lan xuat hien: "))
+
+24
+
+25 dem k 0
+
+26 for x in ds:
+
+27-if x k
+
+28
+
+dem k dem_k+1
+
+29 print("so", k, "xuat hien", dem_k, "so lan trong danh sach")
