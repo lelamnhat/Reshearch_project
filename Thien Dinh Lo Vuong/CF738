@@ -1,28 +1,19 @@
-# Nhập số phần tử của dãy
 n = int(input("Nhập số lượng phần tử của dãy A: "))
-
-# Nhập dãy số
 A = []
 for i in range(n):
-    x = int(input(f"Nhập phần tử thứ {i+1}: "))
+    x = int(input(f"Nhập phần tử thứ" +str(i+1)+ ": "))
     A.append(x)
-
-# 1. Đếm các phần tử số chẵn trong dãy
 dem_chan = 0
 for x in A:
     if x % 2 == 0:
         dem_chan += 1
 
 print("Số phần tử chẵn trong dãy =", dem_chan)
-
-# 2. Tính tổng các phần tử là số lẻ trong dãy
 tong_le = 0
 for x in A:
     if x % 2 != 0:
         tong_le += 1
 print("Tổng các phần tử lẻ trong dãy =", tong_le)
-
-# 3. Tính tổng các phần tử âm trong dãy
 tong_am = 0
 for x in A:
     if x < 0:
