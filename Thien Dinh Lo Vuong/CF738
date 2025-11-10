@@ -1,7 +1,7 @@
 n = int(input("Nhập số lượng phần tử của dãy A: "))
 A = []
 for i in range(n):
-    x = int(input(f"Nhập phần tử thứ  +str(i+1)+ ": "))
+    x = int(input("Nhập phần tử thứ"  +str(i+1)+ ": "))
     A.append(x)
 dem_am = 0
 for x in A:
