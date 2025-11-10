@@ -1,22 +1,20 @@
 n = int(input("Nhập số lượng phần tử của dãy A: "))
 A = []
 for i in range(n):
-    x = int(input(f"Nhập phần tử thứ" +str(i+1)+ ": "))
+    x = int(input(f"Nhập phần tử thứ {i+1}: "))
     A.append(x)
-dem_chan = 0
-for x in A:
-    if x % 2 == 0:
-        dem_chan += 1
-
-print("Số phần tử chẵn trong dãy =", dem_chan)
-tong_le = 0
-for x in A:
-    if x % 2 != 0:
-        tong_le += 1
-print("Tổng các phần tử lẻ trong dãy =", tong_le)
-tong_am = 0
+dem_am = 0
 for x in A:
     if x < 0:
-        tong_am += x
-
-print("Tổng các phần tử âm trong dãy =", tong_am)
+        dem_am += 1
+print("Số phần tử âm trong dãy:", dem_am)
+tong_duong = 0
+for x in A:
+    if x > 0:
+        tong_duong += x
+print("Tổng các phần tử dương trong dãy:", tong_duong)
+tong_3_5 = 0
+for x in A:
+    if x % 3 == 0 and x % 5 == 0:
+        tong_3_5 += x
+print("Tổng các phần tử chia hết cho 3 và 5:", tong_3_5)
