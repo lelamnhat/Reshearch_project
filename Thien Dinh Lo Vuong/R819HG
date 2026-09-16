@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Buổi thực hành nhiếp ảnh</title>
+</head>
+
+<body>
+
+    <h1>Buổi thực hành nhiếp ảnh</h1>
+
+    <p>
+        Hãy cùng học cách chụp ảnh bằng điện thoại.
+        Buổi thực hành dành cho người mới bắt đầu,
+        tổ chức vào sáng Chủ nhật.
+    </p>
+
+    <img src="anh.jpg"
+         alt="Máy ảnh"
+         width="360">
+
+    <p>Những thứ cần mang theo:</p>
+
+    <ul>
+        <li>Điện thoại đã sạc đầy pin.</li>
+        <li>Nước uống và mũ chống nắng.</li>
+        <li>Một ý tưởng muốn kể bằng ảnh.</li>
+    </ul>
+
+    <p>Các bước thực hành:</p>
+
+    <ol>
+        <li>Chọn chủ thể và tìm ánh sáng.</li>
+        <li>Thử ba góc chụp khác nhau.</li>
+        <li>Chọn ảnh và chia sẻ câu chuyện.</li>
+    </ol>
+
+    <p>Lịch hoạt động:</p>
+
+    <table>
+        <tr>
+            <th>Thời gian</th>
+            <th>Hoạt động</th>
+            <th>Địa điểm</th>
+        </tr>
+
+        <tr>
+            <td>07:30 - 08:00</td>
+            <td>Học cách chọn bố cục</td>
+            <td>Sân trường</td>
+        </tr>
+
+        <tr>
+            <td>08:00 - 09:00</td>
+            <td>Chụp ảnh theo nhóm</td>
+            <td>Vườn trường</td>
+        </tr>
+
+        <tr>
+            <td>09:00 - 09:30</td>
+            <td>Xem ảnh và góp ý</td>
+            <td>Phòng sinh hoạt</td>
+        </tr>
+    </table>
+
+    <p>Đăng ký buổi thực hành:</p>
+
+    <form action="/dang-ky" method="post">
+
+        <label for="hoten">Họ tên:</label><br>
+        <input type="text" id="hoten" name="hoten" required>
+        <br><br>
+
+        <label for="dienthoai">Điện thoại:</label><br>
+        <input type="text" id="dienthoai" name="dienthoai" required>
+        <br><br>
+
+        <button type="submit">Đăng ký</button>
+
+    </form>
+
+</body>
+</html>
