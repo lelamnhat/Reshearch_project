@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành HTML</title>
+</head>
+
+<body>
+
+    <!-- 1. Tiêu đề -->
+    <h1>Trang cá nhân của Lan</h1>
+
+    <!-- 2. Đoạn văn -->
+    <p>Tôi đang học thiết kế web.</p>
+    <p>Tôi thích tạo các trang web hữu ích.</p>
+
+    <!-- 3. Danh sách có thứ tự -->
+    <ol>
+        <li>Tạo tập tin HTML.</li>
+        <li>Mở bằng trình duyệt.</li>
+    </ol>
+
+    <!-- 4. Danh sách không có thứ tự -->
+    <ul>
+        <li>Máy tính</li>
+        <li>Trình duyệt</li>
+    </ul>
+
+    <!-- 5. Chèn hình ảnh -->
+    <img src="anh.jpg"
+         alt="Lan đang học lập trình"
+         width="240">
+
+    <!-- 6. Bảng dữ liệu -->
+    <table>
+
+        <caption>Danh sách sinh viên</caption>
+
+        <tr>
+            <th scope="col">Họ tên</th>
+            <th scope="col">Lớp</th>
+        </tr>
+
+        <tr>
+            <td>Lan</td>
+            <td>CNTT 1</td>
+        </tr>
+
+        <tr>
+            <td>Minh</td>
+            <td>CNTT 2</td>
+        </tr>
+
+    </table>
+
+    <!-- 7. Biểu mẫu nhập liệu -->
+    <form action="/dang-ky" method="post">
+
+        <label for="hoten">Họ tên:</label>
+
+        <input type="text"
+               id="hoten"
+               name="hoten"
+               required>
+
+        <button type="submit">Gửi đăng ký</button>
+
+    </form>
+
+</body>
+
+</html>
