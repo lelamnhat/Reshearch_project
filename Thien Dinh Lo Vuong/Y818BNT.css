@@ -1,0 +1,80 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 20px;
+    background-color: #f5f5f5;
+    color: #444444;
+}
+
+h1 {
+    color: green;
+    font-size: 28px;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    font-size: 24px;
+}
+
+p {
+    color: #555555;
+}
+
+ul, ol {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+img {
+    width: 220px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+th, td {
+    border: 1px solid #999999;
+    padding: 6px;
+}
+
+th {
+    background-color: #d9ead3;
+}
+
+form {
+    border: 1px solid #999999;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+input {
+    padding: 6px;
+    border: 1px solid #999999;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 6px;
+}
+
+table td {
+    padding: 12px;
+}
