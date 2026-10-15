@@ -1,0 +1,35 @@
+
+body {
+    background-color: #eeeeee;
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.khung {
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: green;
+}
+
+img {
+    width: 160px;
+    height: auto;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
