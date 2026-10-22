@@ -1,0 +1,59 @@
+
+body {
+    font-family: Arial;
+    font-size: 16px;
+    margin: 24px;
+}
+
+h1 {
+    color: #1d4ed8;
+    font-size: 28px;
+}
+
+.tieu-de-muc {
+    font-weight: bold;
+}
+
+img {
+    max-width: 320px;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #999;
+    padding: 8px;
+}
+
+form {
+    border: 1px solid #999;
+    padding: 16px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #1d4ed8;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #153eaa;
+}
